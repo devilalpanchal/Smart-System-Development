@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+
+    <div class="form">
+        <form class="form-horizontal signin">
+            <div class="form-wrap" style="position: relative;">
+              <h2>Login</h2>
+              <div class="form-group">
+                  <!-- <label for="email">Username:</label> -->
+                  <div class="relative">
+                      <input class="form-control" name="username" type="text" required autofocus title autocomplete placeholder="Username">
+                      <i class="fa fa-user"></i>
+                  </div>
+              </div>
+              
+              <div class="form-group">
+                  <!-- <label for="email">Password:</label> -->
+                  <div class="relative">
+                      <input class="form-control" name="password" type="password" required placeholder="Password">
+                      <i class="fa fa-key"></i>
+                  </div>
+                  <span class="pull-right"><a href="#" id="showhide"><i class="fa fa-eye" aria-hidden="true"></i></a></span>
+              </div> 
+                              
+              <div class="login-btn">
+                  <a href="#"><button class="movebtn movebtnsu" type="Submit">Login <i class="fa fa-fw fa-lock"></i></button></a>
+              </div>
+              
+            </div>
+            <div class="sign-up">
+              <a href="#" class="signbtn"><small>Not a member? Sign Up</small></a>
+          </div>
+        </form>
+    
+        <form class="form-horizontal signup">
+            <div class="form-wrap" style="position: relative;">
+              <h2>Sign Up</h2>
+    
+              <div class="form-group">
+                  <!-- <label for="email">E-mail:</label> -->
+                  <div class="relative">
+                      <input class="form-control" type="text" name="email" required autofocus title autocomplete placeholder="Email Address">
+                      <i class="fa fa-envelope"></i>
+                  </div>
+              </div>
+              <div class="form-group">
+                  <!-- <label for="email">Username:</label> -->
+                  <div class="relative">
+                      <input class="form-control" type="text" name="username" required autofocus title autocomplete placeholder="Username">
+                      <i class="fa fa-user"></i>
+                  </div>
+              </div>
+              
+              <div class="form-group">
+                  <!-- <label for="email">Password:</label> -->
+                  <div class="relative">
+                      <input id="password" class="form-control" type="password" name="password" required placeholder="Password">
+                      <i class="fa fa-key"></i>
+                  </div>
+                  <span class="pull-right"><a href="#" id="showhide"><i class="fa fa-eye" aria-hidden="true"></i></a></span>
+              </div> 
+                              
+              <div class="login-btn">
+                  <button class="movebtn movebtnsu" type="Submit">Submit <i class="fa fa-fw fa-paper-plane"></i></button>
+              </div>
+              
+            </div>
+            <div class="sign-up">
+              <a href="#" class="signbtn"><small>Already member? Sign in </small></a>
+          </div>
+        </form>
+    </div>
+    <footer>
+        <i> <b> Copyright 2024 Devi's Team. </b></i>
+    </footer>
+    <script src="/javascript/login.js"></script>
+</body>
+
+</html>

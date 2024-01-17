@@ -1,0 +1,23 @@
+.card-container {
+    margin-top: 25px;
+}
+
+.form-container {
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+    padding: 2rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 1.3rem;
+}
+
+.form-label {
+    font-size: small;
+}
+
+.form-container {
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 1.3rem;
+    padding: 2rem 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.05);
+}

@@ -1,0 +1,185 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  text-decoration: none !important;
+}
+
+.page-header{
+  height: var(--header-height);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100%);
+  z-index: 1002;
+  background-color: #f6f8fc;
+  padding: 20px 50px 20px 50px;
+  display: flex;
+  align-items: center;
+  transition: .3s; 
+}
+
+.dt-logo {
+  left: 50%;
+  max-width: 36px;
+}
+
+
+
+
+
+
+
+
+.header-text1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header-text2 {
+  color: #0029ff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logout-icon {
+  font-size: x-large !important; 
+  color: #000000a6;
+  cursor: pointer
+}
+
+.project-container {
+  margin-top: 65px;
+}
+
+footer{
+  text-align: center;
+  color: white;
+  color: rgba(0, 0, 0, 0.5);
+  font-style: italic;
+  bottom: 5%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%,0);
+ }
+
+ .page-home .sdlms-container {
+  width: 100%!important;
+  padding: 0px!important;
+}
+
+.product-card p {
+  color: rgb(237, 13, 5);;
+}
+
+
+.product-card {
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 .200rem .25rem rgba(0,0,0,.2);
+  margin: 20px;  
+}
+
+.product-card:hover {
+transition: all .6s ease-in-out;
+box-shadow: 0 .5rem 1rem rgba(0,0,0,.25);
+}
+
+.product-card-icon {
+  float: right;
+  color: #0029ffe0;
+  font-size: 60px;
+}
+
+@media (max-width: 450px) {
+  .product-card {
+      height: 200px;
+  }
+}
+
+@media (max-width: 950px) and (min-width: 450px) {
+  .product-card {
+      text-align: center;
+      height: 180px;
+  }
+}
+
+.product-card-top-border {
+  border-top: 3px solid #0029ff;
+}
+
+
+.product-card-heading {
+  color: hsl(272, 90%, 23%);
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+
+@media (min-width: 950px) {
+  .product-card {
+      width: 29%;
+   
+  }
+}
+
+table td, .table th {
+  width: 10px
+}
+
+/* .user-persona-card {
+  border-radius: 30% !important;
+  padding: 70px;
+  color: #0029ff;
+  box-shadow: 0 0.2rem 0.75rem rgba(0,0,0,.2);
+  width: 250px;
+} */
+
+.user-persona-card-text1 {
+  font-size: x-large;
+  font-weight: 600;
+  position: absolute;
+  top: 35%;
+  right: 150px;
+  color: #0029ff;
+}
+
+.user-persona-card-text2 {
+  font-size: x-large;
+  font-weight: 600;
+  position: absolute;
+  top: 35%;
+  left: 125px;
+  color: #0029ff;
+}
+
+
+.user-persona-card1{
+  border-radius: 30% !important;
+  background-color: black;
+  color: black;
+  padding: 70px;
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  box-shadow: 0 0.2rem 0.75rem rgba(0,0,0,.2);
+}
+
+.user-persona-card2{
+  border-radius: 30% !important;
+  background-color: black;
+  color: black;
+  padding: 70px;
+  width: 200px;
+  height: 180px;
+  position: absolute;
+  top: 120px;
+  right: 100px;
+  box-shadow: 0 0.2rem 0.75rem rgba(0,0,0,.2);
+}

@@ -1,0 +1,75 @@
+
+    <%- include("../../header") -%>
+
+    <link rel="stylesheet" href="/stylesheets/app/main.css">
+    <div class="d-flex justify-content-center">
+        <h5>Create Complaint</h5>
+    </div>
+    <div class="d-flex justify-content-center card-container">
+        <form class="col-12 col-md-6 justify-content-center form-container" id="create-show-form">
+            <div class="mb-3 question">
+                <label for="fare" class="form-label">
+                <b> Complainant Name </b>
+                </label>
+                <input type="text" name="fare" class="form-control" placeholder="Enter your name ">
+            </div>
+            <div class="mb-3 question">
+                <label for="fare" class="form-label">
+                <b> Complainant contact number 
+                </label>
+                <input type="text" name="fare" class="form-control" placeholder="Enter phone number ">
+            </div>
+            <div class="mb-3 question">
+                <label for="category" class="form-label">
+                   <b> What is your Complaint </b>
+                </label>
+                <select class="custom-select" name="category">
+                    <option selected> Select your complaint</option>
+                    <option value="Samagra ID Related problem">Samagra ID Related problem</option>
+                    <option value="Adhaar Card Related problem">Adhaar Card Related problem</option>
+                    <option value="Voter ID Related problem">Voter ID Related problem</option>
+                    <option value="Rasan Related  complaint">Rasan Related  complaint</option>
+                    <option value="Employee complaint">Employee complaint</option>
+                    <option value="Electricity Department Related Problem">Electricity Department Related Problem</option>
+                    <option value="Water Connection Related complaint">Water Connection Related complaint</option>
+                    <option value="Garbage problem">Garbage problem </option>
+                    <option value="others" >others </option>
+                    <!-- <input type="text" id="fname" name="fname"> -->
+
+
+                </select>
+            </div>
+            <div class="mb-3 question">
+                <label for="moviename" class="form-label">
+                <b>Description </b>
+                    
+                <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+                </label>
+                
+                <input type="textarea" name="moviename" class="form-control" placeholder=" ">
+            </div>
+            <div class="mb-3 question">
+                <label for="streetaddress" class="form-label">
+                <b> Problem  Location </b> 
+    
+                        <input type="text" id="street-address" name="streetaddress" autocomplete="street-address" required enterkeyhint="next"></input>
+    
+                        <label for="postal-code"> <b> Ward Number </b>.</label>
+                        <input class="postal-code" id="postal-code" name="postal-code" autocomplete="postal-code" enterkeyhint="next"><br>
+                        <label for="city"> <b> Nearest Landmark </b></label>
+                       <input required type="text" id="city" name="city" autocomplete="address-level2" enterkeyhint="next">
+                      
+                </label>
+                
+            </div>
+            <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <script src="/javascript/app/organizer/create.js"></script>
+
+    <%- include("../../footer") -%>
