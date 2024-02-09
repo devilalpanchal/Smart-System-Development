@@ -41,6 +41,8 @@ Have ideas for improvement or encountered any issues? We value your feedback! Pl
 For any inquiries or further information, feel free to contact us at devilalpanchal551@gmail.com.
 Thank you for exploring the Smart System Development project! We hope it proves to be a valuable addition to your technology toolkit.
 
+# How to Get Started: Follow This Process
+
 # DT L&D Backend Base
 
 The **DT L&D Backend Base** is the base foundation designed to support the Learning and Development (L&D) process within the organization. This project serves as the backbone, providing essential functionalities and a structured architecture that facilitates seamless extension and completion of tasks throughout the L&D journey.
