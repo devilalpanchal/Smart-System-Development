@@ -1,3 +1,11 @@
+#Smart System Devlopment
+![Ssmart System Development](https://github.com/devilalpanchal/Smart-System-Development/assets/144801878/63c9dbbc-1205-44cd-863b-f121a9b54384)
+#For User Dashboard
+![For Employee Dashboard](https://github.com/devilalpanchal/Smart-System-Development/assets/144801878/54a66f3d-7d09-4620-90bf-7b2f1e62e181)
+#For Complainant  to Complaint Dashboard
+![Uploading For Complainant Page.png…]()
+
+
 # DT L&D Backend Base
 
 The **DT L&D Backend Base** is the base foundation designed to support the Learning and Development (L&D) process within the organization. This project serves as the backbone, providing essential functionalities and a structured architecture that facilitates seamless extension and completion of tasks throughout the L&D journey.
@@ -65,5 +73,5 @@ Make sure you have the following installed on your system:
 
 Feel free to reach out if you need further assistance or have any questions!
 
-![Ssmart System Development](https://github.com/devilalpanchal/Smart-System-Development/assets/144801878/63c9dbbc-1205-44cd-863b-f121a9b54384)
+
 
