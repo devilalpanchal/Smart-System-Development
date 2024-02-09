@@ -64,3 +64,6 @@ Make sure you have the following installed on your system:
   If you encounter issues during the configuration process, refer to the project's documentation or seek help from the development team.
 
 Feel free to reach out if you need further assistance or have any questions!
+
+![Ssmart System Development](https://github.com/devilalpanchal/Smart-System-Development/assets/144801878/63c9dbbc-1205-44cd-863b-f121a9b54384)
+
