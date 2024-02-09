@@ -1,10 +1,9 @@
 
 # Welcome to Smart System Development Project
-Introduction:
 
 Welcome to the Smart System Development project repository! This project aims to develop a smart system that simplifies various tasks using advanced technology. Whether you're a developer, a tech enthusiast, or someone curious about smart systems, this repository has something for you.
 
-Features:
+# Features:
 
 ## Intuitive Interface:
 Our smart system boasts a user-friendly interface, making it easy for anyone to interact with.
